@@ -24,9 +24,10 @@ const Add = () => {
   }
  }
  return (
-  <div className='form'>
+  <div className='form' style={{ marginTop: "50px" }}>
+   <h1>Add Form</h1>
    <input type='text' placeholder='title' onChange={handleOnChange} name='title'></input>
-   <input type='text' placeholder='Description' on Change={handleOnChange} name='desc'></input>
+   <input type='text' placeholder='Description' onChange={handleOnChange} name='desc'></input>
    <input type='text' placeholder='Cover' onChange={handleOnChange} name='cover'></input>
    <input type='text' placeholder='Price' onChange={handleOnChange} name='price'></input>
    <button type='submit' onClick={handleSubmit}>Add</button>

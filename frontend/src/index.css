@@ -1,16 +1,31 @@
+*{
+ box-sizing: border-box;
+}
+html,body{
+ max-width: 1120px;
+ margin: 0 auto;
+ overflow: hidden;
+ overflow-y: auto;
+}
 .books{
  display: grid;
- grid-template-columns: repeat(6,1fr);
+ gap: 10px;
+ grid-template-columns: repeat(5,1fr);
+ 
 }
 
 .card {
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
  width: 200px;
  margin: auto;
+ padding: 10px;
  text-align: center;
  font-family: arial;
 }
-
+.card img{
+ height: 200px;
+ width: 100%;
+}
 .price {
  color: grey;
  font-size: 22px;
@@ -27,7 +42,24 @@
  width: 100%;
  font-size: 18px;
 }
-
 .card button:hover {
  opacity: 0.7;
+}
+.card .delete{
+ background-color: red;
+ margin-top: 5px;
+}
+.form{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ max-width: 300px;
+ margin: 0 auto;
+}
+.form input{
+ height: 40px;
+ padding: 10px;
+}
+.form button{
+ height: 40px;
 }
