@@ -6,12 +6,13 @@ Make a book Shop CRUD Application using mysql,nodejs,& react. If any one want ru
 ![alt text](screenshot.png)
  
 
-First, run the Backend  server using below cmd:
+#### First, run the Backend  server using below cmd:
+```bash
 npm i
 npm start
+```
 
-
-Then, run the FrontEnd using below cmd:
+#### Then, run the FrontEnd using below cmd:
 ```bash
 npm run dev
 # or
